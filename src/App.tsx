@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import Header from "./components/Header";
+import Visualizer from "./components/Visualizer";
 
 const App = () => {
   return (
     <AppContainer>
       <Header />
-      <p>Hello</p>
+      <Visualizer />
     </AppContainer>
   );
 };
